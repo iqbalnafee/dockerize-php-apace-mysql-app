@@ -22,3 +22,10 @@
 1. $ docker run -d -p 8082:8082 --name my-apache-php-app -v D:\Projects\docker\php-mysql-docker:/var/www/html php:7.2-apache
 
 #command for start apache server without Dockerfile end
+
+#command for docker-compose.yaml start
+
+1. docker-compose up -> to run compose file
+2. docker-compose down -> to stop the compose file
+
+#command for docker-compose.yaml end
