@@ -13,4 +13,12 @@
 1. $ docker build -t my-php-app . -> build the image and tag (or name it by indicating -t) it as my-php-app
 2. $ docker run -it --rm --name my-running-app my-php-app -> run the container name my-running-app from the image my-php-app.
 
-<!--Command line end-->
+3. docker rm -f $(docker ps -a -q) -> to stop all containers
+
+#Command line end
+
+#command for start apache server without Dockerfile start
+
+1. $ docker run -d -p 8082:8082 --name my-apache-php-app -v D:\Projects\docker\php-mysql-docker:/var/www/html php:7.2-apache
+
+#command for start apache server without Dockerfile end
