@@ -25,7 +25,8 @@
 
 #command for docker-compose.yaml start
 
-1. docker-compose up -> to run compose file
-2. docker-compose down -> to stop the compose file
+1. docker-compose down -> to stop the compose file
+2. docker-compose build -> to build the compose file after any change done in Dockerfile
+3. docker-compose up -> to run compose file
 
 #command for docker-compose.yaml end
