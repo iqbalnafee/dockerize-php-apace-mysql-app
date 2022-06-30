@@ -23,10 +23,10 @@
 
 ## Command for start apache server without Dockerfile end
 
-## command for docker-compose.yaml start
+## Command for docker-compose.yaml start
 
 1. docker-compose down -> to stop the compose file
 2. docker-compose build -> to build the compose file after any change done in Dockerfile
 3. docker-compose up -> to run compose file
 
-## command for docker-compose.yaml end
+## Command for docker-compose.yaml end
