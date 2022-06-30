@@ -1,4 +1,4 @@
-#Dockerfile content start
+## Dockerfile content start
 
 1. FROM php:7.4-cli -> capture php image from docker hub
 
